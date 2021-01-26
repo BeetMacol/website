@@ -12,15 +12,15 @@ export default function Layout({children}: {children: ReactNode}) {
 			</Head>
 
 			<nav className="bg-secondary text-xl min-w-full py-2 flex container px-4">
-				<ul className="w-full my-auto flex space-x-4 flex-row">
+				<div className="w-full my-auto flex space-x-4 flex-row">
 					<LinkNavLi href="/" blank={false}>Home</LinkNavLi>
 					<LinkNavLi href="/type/" blank={false}>Typing</LinkNavLi>
-				</ul>
-				<ul className="w-full my-auto flex space-x-4 flex-row-reverse space-x-reverse">
+				</div>
+				<div className="w-full my-auto flex space-x-4 flex-row-reverse space-x-reverse">
 					<LinkNavLi href="https://github.com/BeetMacol/website" blank={true}><lucide.Github /></LinkNavLi>
 					<NavLi><lucide.Layout /></NavLi>
 					<NavLi><lucide.Languages /></NavLi>
-				</ul>
+				</div>
 			</nav>
 
 			<div className="flex-grow p-3">
