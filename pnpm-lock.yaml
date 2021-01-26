@@ -2,6 +2,7 @@ dependencies:
   '@types/node': 14.14.22
   '@types/react': 17.0.0
   autoprefixer: 10.2.3_postcss@8.2.4
+  lucide-react: 0.12.0
   next: 10.0.5_c39e9db791ea05e3ec4e0e74abb7a6b5
   postcss: 8.2.4
   react: 17.0.1
@@ -2969,6 +2970,13 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
+  /lucide-react/0.12.0:
+    dependencies:
+      prop-types: 15.7.2
+      react: 17.0.1
+    dev: false
+    resolution:
+      integrity: sha512-BTNraZXZCndRt3CgervndOiDjvd4GmllBdgAvSDZjwC+FRZbsCSyhx7FtF67CVa+6PzRkiQkA0ZhYg10ulV7/g==
   /make-dir/2.1.0:
     dependencies:
       pify: 4.0.1
@@ -5312,6 +5320,7 @@ specifiers:
   autoprefixer: ^10.2.3
   eslint: ^7.18.0
   eslint-plugin-react: ^7.22.0
+  lucide-react: ^0.12.0
   next: ^10.0.5
   postcss: ^8.2.4
   react: ^17.0.1
