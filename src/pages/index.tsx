@@ -1,8 +1,9 @@
 import React from "react";
 
 export default function indexPage() {
-    return (
-        <div>
-        </div>
-    );
+	return (
+		<div>
+			Test index page
+		</div>
+	);
 }
