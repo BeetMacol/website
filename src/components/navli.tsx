@@ -22,11 +22,12 @@ export default function NavLi(props: Props) {
 }
 
 export function LinkNavLi(props: LinkProps) {
+    const blank = props.blank;
 	return (
 		<li>
             <NavLi>
                 <Link href={props.href}>
-                    <a>
+                    <a target={props.blank ? '_blank' : '_self'}>
 			            {props.children}
                     </a>
                 </Link>
