@@ -21,7 +21,7 @@ export default class Layout extends Component {
 				<nav className="bg-secondary text-xl min-w-full py-2 flex container px-4">
 					<div className="w-full my-auto flex space-x-4 flex-row">
 						<LinkNavItem href="/">Home</LinkNavItem>
-						<LinkNavItem href="/type/">Typing</LinkNavItem>
+						<LinkNavItem href="/typing/">Typing</LinkNavItem>
 					</div>
 					<div className="w-full my-auto flex space-x-4 flex-row-reverse space-x-reverse">
 						<LinkNavItem href="https://github.com/BeetMacol/website" blank icon><lucide.Github /></LinkNavItem>
